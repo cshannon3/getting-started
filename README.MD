@@ -1,0 +1,66 @@
+# A Getting Started Guide For HTML/CSS/JS
+
+
+## How To Run Your Code<br>
+
+**Running The Live Server with VS Code**
+
+1. Go to [Visual Studio Code](https://code.visualstudio.com/) to download the software. 
+2. Create a new folder called "hello world," go to visual code and open that empty folder.
+3. Create a file called "index.html" and add in this html
+```
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    Hello World
+</body>
+</html>
+```
+4. Right click on the code and press "Open With Live Server"
+<br>
+<img align="center" src="images/open-live-server.png" height="300">
+<br>
+You should see a window open in chrome with your code in it. Try changing "hello world" to something else then saving to make sure it works.
+<br>
+<img align="center" src="images/hello-world.png" height="300">
+<br>
+
+
+## Github Basics<br>
+Github shouldn't be scary. You'll only need to use a few parts of it and should need to do anything crazy like the ssh stuff we did in lab.
+
+**Git vs Github**
+Git is basically a fancy file directory that makes it easier for you to track changes and work with multiple people on the same project without everything blowing up.
+
+Github is a service that's built on top of git to make it easier to share and collaborate online. It basically provides a way to store, share, and connect to your code online.
+
+**Logging into Github**
+1. **Signing in** -  Once you've made a github account, go to the bottom left icon, you should see something that says "Sign In." Click that to sign into your Github account. (this is an easier way of doing what we did in lab)
+<img align="center" src="https://code.visualstudio.com/assets/docs/editor/github/extension-signin.png" height="300">
+<br>
+
+2. 
+
+
+
+When you create a new git
+
+There are only a few commands you'll need to know to make this work.
+1. git init - this just starts 
+
+
+Github
+
+
+Figma to Code
+
+
+
+General Tips
+- console.log() is your friend - if you aren't sure what a valeu
+
+
+
+
