@@ -59,13 +59,7 @@ Here's what it should look like in github
 
 **Using Git**
 
-Once your git is set up it will track all the changes you make. 
-
-
-But it won't save them until you "commit" them.
-- I'll get to this later
-
-
+Once your git is set up it will track all the changes you make. If you look in the Source Control tab, you can see all of the files you've changed.
 
 
 ## Useful Resources
