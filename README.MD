@@ -6,7 +6,7 @@
 **Running The Live Server with VS Code**
 
 1. Go to [Visual Studio Code](https://code.visualstudio.com/) 
-to download the software. 
+to download the software. You will also need [Chrome](https://www.google.com/chrome/?brand=CHBD)
 2. Create a new folder called "hello world," go to visual code and open that empty folder.
 3. Create a file called "index.html" and add in this html
 ```
@@ -87,6 +87,7 @@ To update the code on github with the recent changes, go to the menu icon and cl
 
 
 ## Useful Resources
+<br>
 Git/Github Resources
 - https://learngitbranching.js.org/?demo
 
