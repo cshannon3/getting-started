@@ -49,6 +49,15 @@ Github is a service that's built on top of git to make it easier to share and co
 
 2. **Publishing to Github** - The easiest way to initially set up git for your project is to immediately publish it to a private repo on github so you don't have to do it later. If you go to the source control tab on the left(3rd item down), you should see a "Publish to Github" button. Click that and follow the prompts to allow VS-Code authorization. Once you're back in github, at the top of the screen a command will appear at the top to publish to git, click on that to create the remote repo. 
 
+The command line way to do this is
+```
+git init
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/cshannon3/getting-started.git
+git push -u origin master
+```
+
 <br>
 <img align="center" src="images/publishtogithub.png" height="200">
 <br>
@@ -59,7 +68,7 @@ Here's what it should look like in github
 <br>
 
 **Using Git**
-
+<br>
 Once your git is set up it will track all the changes you make. If you look in the Source Control tab, you can see all of the files you've changed. You create "checkpoints" of your code at a certian point in time by committing the changes to your git. Here's a visual example of the git from this repo. When I added photos, I updated the repo and included a message that says what I changed.
 
 <br>
@@ -73,13 +82,27 @@ If you click on the file, you can see the difference between your current file a
 <img align="center" src="images/commits.png" height="200">
 <br>
 
-To commit code, press the "+" button to move code the unstaged area to the staged area. Add a message in the box to describe what changes you made. Then click the check button to commit the changes.
+To commit code, press the "+" button to move code the unstaged area to the staged area. 
+The equivilent command is 
+```
+git add .
+```
+
+Add a message in the box to describe what changes you made. Then click the check button to commit the changes.
+The equivilent command is 
+```
+git commit -m "[your message]"
+```
 
 <br>
 <img align="center" src="images/commit1.png" height="200">
 <br>
 
 To update the code on github with the recent changes, go to the menu icon and click "Push"
+The equivilent command is 
+```
+git push -u origin master
+```
 
 <br>
 <img align="center" src="images/pushcommand.png" height="200">
