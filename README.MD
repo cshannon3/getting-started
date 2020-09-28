@@ -59,12 +59,11 @@ Here's what it should look like in github
 
 **Using Git**
 
-Once your git is set up it will track all the changes you make. But it won't save them until you "commit" them. 
+Once your git is set up it will track all the changes you make. 
+
+
+But it won't save them until you "commit" them.
 - I'll get to this later
-
-
-
-
 
 
 
@@ -78,26 +77,16 @@ Html/CSS/JS Resources
 - [https://www.w3schools.com/](https://www.w3schools.com/) - Along with MDN, this is the default place to go for webdev stuff 
  - [Flexfrog](http://flexboxfroggy.com/) - A cool game that helps you learn how to use the flexbox
 
-Once your git is set up it will track all the changes you make. But it won't save them until you "commit" them. 
+<br>
+<br>
 
+## General Tips 
+* I'll add some examples soon so these make more sense. If anyone else has additional tips, create a pull request(if you know how to do that) or send them to me in slack.
 
-
-
-When you create a new git
-
-There are only a few commands you'll need to know to make this work.
-1. git init - this just starts 
-
-
-Github
-
-
-Figma to Code
-
-
-
-General Tips
-- console.log() is your friend - if you aren't sure what a valeu
+- **console.log() is your friend** - if you aren't sure what a value is or where the error is coming from debug by using console.log to figure it out
+- **It doesn't have to look pretty to work** - your code will probably be pretty hacky, 
+- **Layout then Looks then Function** - Start by coding the layout and just use empty boxes to represent the content. Then add the aesthetics and content. Finally add the interactions and data. I like to do most of this process for the first page before moving on to the next ones.
+- **Break It Into Smaller Problems** - If you get stuck, try to find ways to break the problem into smaller sub-problems then work up from there.
 
 
 
