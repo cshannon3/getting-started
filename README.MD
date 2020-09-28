@@ -23,7 +23,9 @@ to download the software.
 <br>
 <img align="center" src="images/open-live-server.png" height="300">
 <br>
+<br>
 You should see a window open in chrome with your code in it. Try changing "hello world" to something else then saving to make sure it works.
+<br>
 <br>
 <img align="center" src="images/hello-world.png" height="200">
 <br>
@@ -34,13 +36,13 @@ You should see a window open in chrome with your code in it. Try changing "hello
 Github shouldn't be scary. You'll only need to use a few parts of it and should need to do anything crazy like the ssh stuff we did in lab. 
 <br>
 
-**Git vs Github**
+**Git vs Github** <br>
 Git is basically a fancy file directory(called a repository or repo) that makes it easier for you to track changes and work with multiple people on the same project without everything blowing up.
 
 Github is a service that's built on top of git to make it easier to share and collaborate online. It basically provides a way to store, share, and connect to your code online.
 <br>
 
-**Git/Github Set**
+**Git/Github Set** <br>
 1. **Signing in** -  Once you've made a github account, go to the bottom left icon, you should see something that says "Sign In." Click that to sign into your Github account. (this is an easier way of doing what we did in lab)
 <img align="center" src="https://code.visualstudio.com/assets/docs/editor/github/extension-signin.png" height="200">
 <br>
@@ -56,10 +58,32 @@ Here's what it should look like in github
 <img align="center" src="images/github.png" height="200">
 <br>
 
-
 **Using Git**
 
-Once your git is set up it will track all the changes you make. If you look in the Source Control tab, you can see all of the files you've changed.
+Once your git is set up it will track all the changes you make. If you look in the Source Control tab, you can see all of the files you've changed. You create "checkpoints" of your code at a certian point in time by committing the changes to your git. Here's a visual example of the git from this repo. When I added photos, I updated the repo and included a message that says what I changed.
+
+<br>
+<img align="center" src="images/gitup_example.png" height="200">
+<br>
+
+
+If you click on the file, you can see the difference between your current file and the version from the last time changes were commited to the repo. 
+
+<br>
+<img align="center" src="images/commits.png" height="200">
+<br>
+
+To commit code, press the "+" button to move code the unstaged area to the staged area. Add a message in the box to describe what changes you made. Then click the check button to commit the changes.
+
+<br>
+<img align="center" src="images/commit1.png" height="200">
+<br>
+
+To update the code on github with the recent changes, go to the menu icon and click "Push"
+
+<br>
+<img align="center" src="images/pushcommand.png" height="200">
+<br>
 
 
 ## Useful Resources
